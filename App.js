@@ -4,6 +4,8 @@ import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
 import TransactionScreen from "./screens/WriteStory";
+import searchScreen from "./screens/WriteStory";
+
 
 
 export default class App extends React.Component {
