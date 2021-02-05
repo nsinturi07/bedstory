@@ -32,7 +32,7 @@ lastVisibleEntry:item,
 
 //retrieveEntries = async ()=> {
 //  //console.log('Entered retrieveEntries')
-//  const entries = await db.collection('stories').liimit(10).get();
+//  const entries = await db.collection('stories').limit(10).get();
 //  entries.docs.map(
 //    (item)=>{
 //      this.setState({
@@ -163,10 +163,10 @@ onEndReachedThreshold = {0.7}
 const styles = StyleSheet.create({
 container:{
 flex:1,
-backgroundColor:'pink',
+backgroundColor:'red',
 },
 flatListContainer:{
-backgroundColor:'pink',
+backgroundColor:'green',
 borderWidth:5,
 borderColor:'black',
 margin:5,
@@ -176,9 +176,9 @@ color:'white',
 paddingLeft:5,
 },
 flatList:{
-backgroundColor: 'pink',
+backgroundColor: 'blue',
 borderTopWidth:4,
-borderColor:'pink',
+borderColor:'blue',
 },
 button:{
 padding:5,
