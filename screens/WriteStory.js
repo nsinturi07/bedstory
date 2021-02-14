@@ -1,12 +1,19 @@
 import React from 'react'
-import { View,Text,StyleSheet } from 'react-native'
+import { View,Text,StyleSheet, TouchableOpacity} from 'react-native'
 
 export default class WriteScreen extends React.Component {
     render(){
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <TextInput style={styles.inputBox} placeholder="Story Title"/>
+            <TextInput style={styles.inputBox} placeholder="Author"/>
+            <TextInput style={styles.inputBox} placeholder="Write Story"/>
                 <Text>Write a story</Text>
+            <TouchableOpacity
+            style = {styles.submitButton}
+            
+            <Text>Submit</Text>
+          </TouchableOpacity>
             </View>
         )
     }
